@@ -59,7 +59,7 @@ const Navbar = () => {
     </div>
 <Link to="/onas">O nás</Link>
 <Link to="/kontakt">Kontakt</Link>
-<button className="primary-button" onClick={() => window.location.href = '/rezervovat'}>Rezervovat</button>
+<Link to="/rezervovat" className="primary-button">Rezervovat</Link>
         </div>
         <div className="navbar-menu-container">
             <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
