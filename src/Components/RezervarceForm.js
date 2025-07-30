@@ -41,7 +41,7 @@ const RezervarceForm = () => {
         setFormData(prev => ({ ...prev, pocet: vybranyTermin.volnaKapacita }));
       }
     }
-  }, [formData.datum, dostupneTerminy]);
+  }, [formData.datum, dostupneTerminy, formData.pocet]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
