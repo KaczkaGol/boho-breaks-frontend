@@ -78,7 +78,7 @@ const EmblaCarousel = (props) => {
       .on('reInit', tweenOpacity)
       .on('scroll', tweenOpacity)
       .on('slideFocus', tweenOpacity)
-  }, [emblaApi, tweenOpacity])
+  }, [emblaApi, tweenOpacity, setTweenFactor])
 
   return (
     <div className="embla">

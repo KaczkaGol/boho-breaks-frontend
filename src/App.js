@@ -15,10 +15,8 @@ import Rezervovat from './Components/Rezervovat';
 import RezervarceForm from './Components/RezervarceForm';
 import BeerTour from './Components/BeerTour';
 import WineTour from './Components/WineTour';
-
-import EmblaCarousel from './Components/EmblaCarousel'
 import './embla.css'
-import DateInput from './Components/DateInput';
+
 
 
 

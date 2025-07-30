@@ -3,7 +3,7 @@ import Start from "./Start";
 import HomeContent from "./HomeContent";
 
 
-import {FiArrowRight} from "react-icons/fi";
+
 
 const Home = () => {
   return (

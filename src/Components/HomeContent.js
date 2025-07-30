@@ -1,6 +1,5 @@
 import React from 'react'
 import GuideImage from "../Assets/Guide.png";
-import BusImage from "../Assets/bus.png"
 import { motion } from "motion/react";
 import { useNavigate } from 'react-router-dom';
 

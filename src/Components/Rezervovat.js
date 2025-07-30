@@ -4,9 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const Rezervovat = () => {
   const navigate = useNavigate();
 
-  const handleVyber = (nazevNabidky) => {
-    navigate('/rezervace', { state: { nabidka: nazevNabidky } });
-  };
+
 
   return (
     <div>

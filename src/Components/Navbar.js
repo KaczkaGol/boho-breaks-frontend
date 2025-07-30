@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Logo from "../Assets/final_logo.png";
-import {BsCart2} from "react-icons/bs";
 import {HiOutlineBars3} from "react-icons/hi2";
-import {Box,Drawer,List,ListItem,Button,ListItemIcon,ListItemText, ListItemButton} from "@mui/material";
+import {Box,Drawer,List,ListItem,ListItemIcon,ListItemText, ListItemButton} from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
@@ -51,7 +50,7 @@ const Navbar = () => {
         <div className="navbar-links-container">
         <Link to="/">Domů</Link>
 <div className="dropdown">
-<a href="">Nabídka</a>
+<a href="/">Nabídka</a>
 <div className="dropdown-content">
 <Link to="/nabidka/zazitkove-trasy">Zážitkové trasy</Link>
 <Link to="/nabidka/degustacni-trasy">Degustační trasy</Link>
